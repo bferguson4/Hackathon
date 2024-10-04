@@ -1,0 +1,193 @@
+{
+    "descriptor_specific": {
+        "descriptor_bucket": "public",
+        "descriptor_key": null,
+        "descriptor_type": "rdkit_raw"
+    },
+    "model_parameters": {
+        "ampl_version": "1.6.1",
+        "class_number": 2,
+        "featurizer": "computed_descriptors",
+        "hyperparam_uuid": null,
+        "model_bucket": "public",
+        "model_choice_score_type": "r2",
+        "model_type": "RF",
+        "num_model_tasks": 1,
+        "prediction_type": "regression",
+        "save_results": false,
+        "system": "twintron-blue",
+        "time_generated": 1721398322.4500237,
+        "transformer_bucket": "",
+        "transformer_key": "models/CDK_1_all_curated\\RF_computed_descriptors_fingerprint_regression\\0461eadf-b1ec-4632-9476-a09c12a415ad\\transformers.pkl",
+        "transformer_oid": "",
+        "transformers": true,
+        "uncertainty": true
+    },
+    "model_uuid": "0461eadf-b1ec-4632-9476-a09c12a415ad",
+    "rf_specific": {
+        "rf_estimators": 500,
+        "rf_max_depth": null,
+        "rf_max_features": 32
+    },
+    "splitting_parameters": {
+        "base_splitter": "scaffold",
+        "butina_cutoff": 0.6,
+        "cutoff_date": null,
+        "date_col": null,
+        "mtss_num_generations": 20,
+        "mtss_num_pop": 100,
+        "mtss_num_super_scaffolds": 40,
+        "mtss_response_distr_weight": 1.0,
+        "mtss_split_fraction_weight": 1.0,
+        "mtss_train_test_dist_weight": 1.0,
+        "mtss_train_valid_dist_weight": 1.0,
+        "num_folds": 5,
+        "previously_split": false,
+        "split_strategy": "train_valid_test",
+        "split_test_frac": 0.15,
+        "split_uuid": "fcacce07-1b94-41f0-bb2c-18921dfef605",
+        "split_valid_frac": 0.15,
+        "splitter": "fingerprint"
+    },
+    "time_built": 1721398322.4510164,
+    "training_dataset": {
+        "bucket": "public",
+        "dataset_hash": "f41195a4d4e5c3d93708dca3eefbcd65",
+        "dataset_key": "c:\\Desktop\\Hackathon\\Single_protein\\CDK_1_all_curated.csv",
+        "dataset_metadata": {},
+        "dataset_oid": null,
+        "datastore": false,
+        "external_export_parameters": {
+            "result_dir": "models/"
+        },
+        "feature_transform_type": "normalization",
+        "id_col": "compound_id",
+        "production": false,
+        "response_cols": [
+            "avg_pIC50"
+        ],
+        "response_transform_type": "normalization",
+        "smiles_col": "base_rdkit_smiles",
+        "weight_transform_type": null
+    },
+    "training_metrics": [
+        {
+            "input_dataset": {
+                "bucket": "public",
+                "dataset_hash": "f41195a4d4e5c3d93708dca3eefbcd65",
+                "dataset_key": "c:\\Desktop\\Hackathon\\Single_protein\\CDK_1_all_curated.csv",
+                "dataset_metadata": {},
+                "dataset_oid": null,
+                "datastore": false,
+                "external_export_parameters": {
+                    "result_dir": "models/"
+                },
+                "feature_transform_type": "normalization",
+                "id_col": "compound_id",
+                "production": false,
+                "response_cols": [
+                    "avg_pIC50"
+                ],
+                "response_transform_type": "normalization",
+                "smiles_col": "base_rdkit_smiles",
+                "weight_transform_type": null
+            },
+            "label": "best",
+            "metrics_type": "training",
+            "model_uuid": "0461eadf-b1ec-4632-9476-a09c12a415ad",
+            "prediction_results": {
+                "mae_score": 0.18942905749504227,
+                "mean_response_vals": [
+                    5.463739528617262
+                ],
+                "num_compounds": 1726,
+                "r2_score": 0.9503228494324516,
+                "rms_score": 0.2764386032900494,
+                "std_response_vals": [
+                    1.2402817444864422
+                ]
+            },
+            "subset": "train",
+            "time_run": 1721398322.4520156
+        },
+        {
+            "input_dataset": {
+                "bucket": "public",
+                "dataset_hash": "f41195a4d4e5c3d93708dca3eefbcd65",
+                "dataset_key": "c:\\Desktop\\Hackathon\\Single_protein\\CDK_1_all_curated.csv",
+                "dataset_metadata": {},
+                "dataset_oid": null,
+                "datastore": false,
+                "external_export_parameters": {
+                    "result_dir": "models/"
+                },
+                "feature_transform_type": "normalization",
+                "id_col": "compound_id",
+                "production": false,
+                "response_cols": [
+                    "avg_pIC50"
+                ],
+                "response_transform_type": "normalization",
+                "smiles_col": "base_rdkit_smiles",
+                "weight_transform_type": null
+            },
+            "label": "best",
+            "metrics_type": "training",
+            "model_uuid": "0461eadf-b1ec-4632-9476-a09c12a415ad",
+            "prediction_results": {
+                "mae_score": 0.6453909000658709,
+                "mean_response_vals": [
+                    5.6522124870585415
+                ],
+                "model_choice_score": 0.23464625695301256,
+                "num_compounds": 370,
+                "r2_score": 0.23464625695301256,
+                "rms_score": 0.8807729914544866,
+                "std_response_vals": [
+                    1.0067760680798472
+                ]
+            },
+            "subset": "valid",
+            "time_run": 1721398322.4520156
+        },
+        {
+            "input_dataset": {
+                "bucket": "public",
+                "dataset_hash": "f41195a4d4e5c3d93708dca3eefbcd65",
+                "dataset_key": "c:\\Desktop\\Hackathon\\Single_protein\\CDK_1_all_curated.csv",
+                "dataset_metadata": {},
+                "dataset_oid": null,
+                "datastore": false,
+                "external_export_parameters": {
+                    "result_dir": "models/"
+                },
+                "feature_transform_type": "normalization",
+                "id_col": "compound_id",
+                "production": false,
+                "response_cols": [
+                    "avg_pIC50"
+                ],
+                "response_transform_type": "normalization",
+                "smiles_col": "base_rdkit_smiles",
+                "weight_transform_type": null
+            },
+            "label": "best",
+            "metrics_type": "training",
+            "model_uuid": "0461eadf-b1ec-4632-9476-a09c12a415ad",
+            "prediction_results": {
+                "mae_score": 1.007177188850076,
+                "mean_response_vals": [
+                    5.9999869973106135
+                ],
+                "num_compounds": 371,
+                "r2_score": -0.2821452928816057,
+                "rms_score": 1.3348298677818904,
+                "std_response_vals": [
+                    1.1788465982449448
+                ]
+            },
+            "subset": "test",
+            "time_run": 1721398322.4520156
+        }
+    ]
+}

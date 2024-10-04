@@ -1,0 +1,11 @@
+trial,featurizer,descriptor,model_params,train_r2,train_rms,valid_r2,valid_rms,test_r2,test_rms
+0,computed_descriptors,rdkit_raw,483_28_173,0,100,0,100,0,100
+1,computed_descriptors,rdkit_raw,213_18_82,0,100,0,100,0,100
+2,computed_descriptors,rdkit_raw,152_7_82,0,100,0,100,0,100
+3,computed_descriptors,rdkit_raw,403_19_197,0,100,0,100,0,100
+4,computed_descriptors,rdkit_raw,175_25_121,0,100,0,100,0,100
+5,computed_descriptors,rdkit_raw,136_29_180,0,100,0,100,0,100
+6,computed_descriptors,rdkit_raw,239_23_148,0,100,0,100,0,100
+7,computed_descriptors,rdkit_raw,100_12_84,0,100,0,100,0,100
+8,computed_descriptors,rdkit_raw,224_15_21,0,100,0,100,0,100
+9,computed_descriptors,rdkit_raw,120_12_97,0,100,0,100,0,100

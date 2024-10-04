@@ -1,0 +1,2 @@
+trial,featurizer,descriptor,model_params,train_r2,train_rms,valid_r2,valid_rms,test_r2,test_rms
+0,computed_descriptors,rdkit_raw,224_18_56,0,100,0,100,0,100

@@ -1,0 +1,2 @@
+trial,featurizer,descriptor,model_params,train_r2,train_rms,valid_r2,valid_rms,test_r2,test_rms
+0,computed_descriptors,rdkit_raw,317_24_108,0.9410976594714839,0.29577112314318593,0.6139937364805772,0.7524691848876697,0.5647796246837682,0.7883187915931882

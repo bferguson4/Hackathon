@@ -1,0 +1,120 @@
+[
+    {
+        "input_dataset": {
+            "bucket": "public",
+            "dataset_hash": "f41195a4d4e5c3d93708dca3eefbcd65",
+            "dataset_key": "c:\\Desktop\\Hackathon\\Single_protein\\CDK_1_all_curated.csv",
+            "dataset_metadata": {},
+            "dataset_oid": null,
+            "datastore": false,
+            "external_export_parameters": {
+                "result_dir": "models/"
+            },
+            "feature_transform_type": "normalization",
+            "id_col": "compound_id",
+            "production": false,
+            "response_cols": [
+                "avg_pIC50"
+            ],
+            "response_transform_type": "normalization",
+            "smiles_col": "base_rdkit_smiles",
+            "weight_transform_type": null
+        },
+        "label": "best",
+        "metrics_type": "training",
+        "model_uuid": "96d385b9-4450-4a5a-8735-bc9324e3afbf",
+        "prediction_results": {
+            "mae_score": 0.21692743074044385,
+            "mean_response_vals": [
+                5.5757360347459235
+            ],
+            "num_compounds": 1726,
+            "r2_score": 0.9408905296627078,
+            "rms_score": 0.29629070566179383,
+            "std_response_vals": [
+                1.2186794683265452
+            ]
+        },
+        "subset": "train",
+        "time_run": 1721397727.5680382
+    },
+    {
+        "input_dataset": {
+            "bucket": "public",
+            "dataset_hash": "f41195a4d4e5c3d93708dca3eefbcd65",
+            "dataset_key": "c:\\Desktop\\Hackathon\\Single_protein\\CDK_1_all_curated.csv",
+            "dataset_metadata": {},
+            "dataset_oid": null,
+            "datastore": false,
+            "external_export_parameters": {
+                "result_dir": "models/"
+            },
+            "feature_transform_type": "normalization",
+            "id_col": "compound_id",
+            "production": false,
+            "response_cols": [
+                "avg_pIC50"
+            ],
+            "response_transform_type": "normalization",
+            "smiles_col": "base_rdkit_smiles",
+            "weight_transform_type": null
+        },
+        "label": "best",
+        "metrics_type": "training",
+        "model_uuid": "96d385b9-4450-4a5a-8735-bc9324e3afbf",
+        "prediction_results": {
+            "mae_score": 0.5416496193001875,
+            "mean_response_vals": [
+                5.586241447485485
+            ],
+            "model_choice_score": 0.612848053656905,
+            "num_compounds": 370,
+            "r2_score": 0.612848053656905,
+            "rms_score": 0.7535850376196372,
+            "std_response_vals": [
+                1.2111321798383492
+            ]
+        },
+        "subset": "valid",
+        "time_run": 1721397727.5680382
+    },
+    {
+        "input_dataset": {
+            "bucket": "public",
+            "dataset_hash": "f41195a4d4e5c3d93708dca3eefbcd65",
+            "dataset_key": "c:\\Desktop\\Hackathon\\Single_protein\\CDK_1_all_curated.csv",
+            "dataset_metadata": {},
+            "dataset_oid": null,
+            "datastore": false,
+            "external_export_parameters": {
+                "result_dir": "models/"
+            },
+            "feature_transform_type": "normalization",
+            "id_col": "compound_id",
+            "production": false,
+            "response_cols": [
+                "avg_pIC50"
+            ],
+            "response_transform_type": "normalization",
+            "smiles_col": "base_rdkit_smiles",
+            "weight_transform_type": null
+        },
+        "label": "best",
+        "metrics_type": "training",
+        "model_uuid": "96d385b9-4450-4a5a-8735-bc9324e3afbf",
+        "prediction_results": {
+            "mae_score": 0.5658074664859599,
+            "mean_response_vals": [
+                5.54473986810296
+            ],
+            "num_compounds": 371,
+            "r2_score": 0.5518420393617229,
+            "rms_score": 0.7999499714555802,
+            "std_response_vals": [
+                1.1949432205265718
+            ]
+        },
+        "subset": "test",
+        "time_run": 1721397727.5680382
+    }
+]
